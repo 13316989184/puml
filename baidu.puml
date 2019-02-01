@@ -1,0 +1,8 @@
+@startuml
+autonumber
+浏览器 -> DNS服务器 : 申请域名解析
+DNS服务器 ->浏览器 : 返回域名解析结果
+浏览器 -> web服务器 : 请求资源
+web服务器 -> 浏览器 : 返回结果
+
+@enduml
